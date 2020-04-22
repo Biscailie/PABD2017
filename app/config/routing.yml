@@ -1,3 +1,14 @@
+uab_tecsa:
+    resource: "@UabTecsaBundle/Resources/config/routing.yml"
+    prefix:   /tecsa
+
+uab_pocris:
+    
+    resource: "@UabPocrisBundle/Resources/config/routing.yml"
+    
+    prefix:   /pocris
+
+
 uab_florin:
     resource: "@UabFlorinBundle/Resources/config/routing.yml"
     prefix:   /florin
@@ -17,3 +28,15 @@ uab_marius:
 uab_solymosi:
     resource: "@UabSolymosiBundle/Resources/config/routing.yml"
     prefix:   /solymosi
+    
+uab_andrei:
+    resource: "@UabIspasBundle/Resources/config/routing.yml"
+    prefix:   /andrei
+    
+uab_andreea_homepage    :
+    resource: "@UabIrincaBundle/Resources/config/routing.yml"
+    prefix:   /irinca
+
+uab_augustin    :
+    resource: "@UabAugustinBundle/Resources/config/routing.yml"
+    prefix:   /augustin
